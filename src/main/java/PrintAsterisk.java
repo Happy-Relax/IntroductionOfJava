@@ -70,8 +70,12 @@ public class PrintAsterisk {
         return turnIsoscelesTriangle;
     }
 
-    public String getDiamondWithName(int i, String bill) {
-        return null;
+    public List<String> getDiamondWithName(int i, String name) {
+        List<String> diamond = getDiamond(i);
+
+        diamond.set(i-1,name);
+
+        return diamond;
     }
 
 
