@@ -9,9 +9,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class printAsteriskTest {
 
     @Test
-    public void Should_return_one_asterisk(){
+    public void Should_return_many_asterisk(){
         PrintAsterisk printAsterisk = new PrintAsterisk();
 
-        assertThat(printAsterisk.getAsterisk(),is("*"));
+        assertThat(printAsterisk.getAsterisk(3),is("***"));
     }
 }
