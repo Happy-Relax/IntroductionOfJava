@@ -33,6 +33,6 @@ public class printAsteriskTest {
     public void Should_return_isosceles_triangle(){
         PrintAsterisk printAsterisk = new PrintAsterisk();
 
-        assertThat(printAsterisk.getRightTriangle(3),is("  *\n ***\n*****\n"));
+        assertThat(printAsterisk.getIsoscelesTriangle(3),is("  *\n ***\n*****\n"));
     }
 }

@@ -27,4 +27,20 @@ public class PrintAsterisk {
         }
         return triangle;
     }
+
+    public String getSpace(int i) {
+        String asterisks = "";
+        for (int j = 0; j < i; j++) {
+            asterisks += " ";
+        }
+
+        return asterisks;
+    }
+    public String getIsoscelesTriangle(int i) {
+        String triangle = "";
+        for (int j = 0; j < i; j++) {
+            triangle += getSpace(i-j-1) + getAsterisks(2*j+1) +"\n";
+        }
+        return triangle;
+    }
 }
