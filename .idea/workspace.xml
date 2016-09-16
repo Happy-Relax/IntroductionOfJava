@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606078e8-cce5-4656-8036-655177fcb0ec" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PrintAsterisk.class" afterPath="$PROJECT_DIR$/target/classes/PrintAsterisk.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/printAsteriskTest.class" afterPath="$PROJECT_DIR$/target/test-classes/printAsteriskTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PrintAsterisk.java" afterPath="$PROJECT_DIR$/src/main/java/PrintAsterisk.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/printAsteriskTest.java" afterPath="$PROJECT_DIR$/src/test/java/printAsteriskTest.java" />
     </list>
@@ -25,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="printAsteriskTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="printAsteriskTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/printAsteriskTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintAsterisk.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrintAsterisk.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PrintAsterisk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            <state relative-caret-position="286">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -88,8 +91,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="441" />
-    <option name="y" value="61" />
+    <option name="x" value="496" />
+    <option name="y" value="95" />
     <option name="width" value="946" />
     <option name="height" value="767" />
   </component>
@@ -219,7 +222,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.printAsteriskTest">
+  <component name="RunManager" selected="JUnit.printAsteriskTest.Should_return_diamond">
     <configuration default="false" name="printAsteriskTest.Should_return_many_asterisk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Introduction" />
@@ -228,27 +231,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="printAsteriskTest" />
       <option name="METHOD_NAME" value="Should_return_many_asterisk" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="printAsteriskTest.Should_return_three_lines_asterisk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Introduction" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="printAsteriskTest" />
-      <option name="METHOD_NAME" value="Should_return_three_lines_asterisk" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -313,6 +295,27 @@
       <option name="MAIN_CLASS_NAME" value="printAsteriskTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="printAsteriskTest.Should_return_diamond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Introduction" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="printAsteriskTest" />
+      <option name="METHOD_NAME" value="Should_return_diamond" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -571,18 +574,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_many_asterisk" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_three_lines_asterisk" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_right_triangle" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_isosceles_triangle" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.printAsteriskTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_right_triangle" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_isosceles_triangle" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.printAsteriskTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_diamond" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.printAsteriskTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_many_asterisk" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_isosceles_triangle" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_right_triangle" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_three_lines_asterisk" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_diamond" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.printAsteriskTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_many_asterisk" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_isosceles_triangle" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.printAsteriskTest.Should_return_right_triangle" />
       </list>
     </recent_temporary>
   </component>
@@ -612,30 +615,30 @@
     <history-entry file="printAsteriskTest - 2016.09.16 at 13h 54m 36s.xml">
       <configuration name="printAsteriskTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="printAsteriskTest_Should_return_diamond - 2016.09.16 at 13h 56m 19s.xml">
+      <configuration name="printAsteriskTest.Should_return_diamond" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="printAsteriskTest_Should_return_diamond - 2016.09.16 at 14h 00m 56s.xml">
+      <configuration name="printAsteriskTest.Should_return_diamond" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="printAsteriskTest_Should_return_diamond - 2016.09.16 at 14h 01m 28s.xml">
+      <configuration name="printAsteriskTest.Should_return_diamond" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="printAsteriskTest_Should_return_diamond - 2016.09.16 at 14h 02m 50s.xml">
+      <configuration name="printAsteriskTest.Should_return_diamond" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="printAsteriskTest_Should_return_isosceles_triangle - 2016.09.16 at 13h 43m 52s.xml">
       <configuration name="printAsteriskTest.Should_return_isosceles_triangle" configurationId="JUnit" />
     </history-entry>
     <history-entry file="printAsteriskTest_Should_return_many_asterisk - 2016.09.16 at 13h 50m 57s.xml">
       <configuration name="printAsteriskTest.Should_return_many_asterisk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="printAsteriskTest_Should_return_right_triangle - 2016.09.16 at 13h 21m 26s.xml">
-      <configuration name="printAsteriskTest.Should_return_right_triangle" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="printAsteriskTest_Should_return_right_triangle - 2016.09.16 at 13h 39m 48s.xml">
       <configuration name="printAsteriskTest.Should_return_right_triangle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="printAsteriskTest_Should_return_three_lines_asterisk - 2016.09.16 at 13h 18m 22s.xml">
-      <configuration name="printAsteriskTest.Should_return_three_lines_asterisk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="printAsteriskTest_Should_return_three_lines_asterisk - 2016.09.16 at 13h 18m 38s.xml">
-      <configuration name="printAsteriskTest.Should_return_three_lines_asterisk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="printAsteriskTest_Should_return_three_lines_asterisk - 2016.09.16 at 13h 19m 17s.xml">
-      <configuration name="printAsteriskTest.Should_return_three_lines_asterisk" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="441" y="61" width="946" height="767" extended-state="0" />
+    <frame x="496" y="95" width="946" height="767" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -645,7 +648,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -856,21 +859,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/printAsteriskTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PrintAsterisk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PrintAsterisk.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/printAsteriskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="281">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -35,4 +35,11 @@ public class printAsteriskTest {
 
         assertThat(printAsterisk.getIsoscelesTriangle(3),is("  *\n ***\n*****\n"));
     }
+
+    @Test
+    public void Should_return_diamond(){
+        PrintAsterisk printAsterisk = new PrintAsterisk();
+
+        assertThat(printAsterisk.getDiamond(3),is("  *\n ***\n*****\n ***\n  *\n"));
+    }
 }

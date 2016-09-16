@@ -21,26 +21,40 @@ public class PrintAsterisk {
     }
 
     public String getRightTriangle(int i) {
-        String triangle = "";
+        String rightTriangle = "";
         for (int j = 0; j < i; j++) {
-            triangle += getAsterisks(j+1) +"\n";
+            rightTriangle += getAsterisks(j+1) +"\n";
         }
-        return triangle;
+        return rightTriangle;
     }
 
     public String getSpace(int i) {
-        String asterisks = "";
+        String space = "";
         for (int j = 0; j < i; j++) {
-            asterisks += " ";
+            space += " ";
         }
 
-        return asterisks;
+        return space;
     }
     public String getIsoscelesTriangle(int i) {
-        String triangle = "";
+        String isoscelesTriangle = "";
         for (int j = 0; j < i; j++) {
-            triangle += getSpace(i-j-1) + getAsterisks(2*j+1) +"\n";
+            isoscelesTriangle += getSpace(i-j-1) + getAsterisks(2*j+1) +"\n";
         }
-        return triangle;
+        return isoscelesTriangle;
+    }
+
+    public String getDiamond(int i) {
+        String diamond = "";
+        diamond += getIsoscelesTriangle(i) + getTurnIsoscelesTriangle(i-1);
+        return diamond;
+    }
+
+    private String getTurnIsoscelesTriangle(int i) {
+        String turnIsoscelesTriangle = "";
+        for (int j = i-1; j >= 0; j--) {
+            turnIsoscelesTriangle += getSpace(i-j) + getAsterisks(2*j+1) +"\n";
+        }
+        return turnIsoscelesTriangle;
     }
 }
