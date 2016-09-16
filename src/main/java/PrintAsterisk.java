@@ -15,15 +15,7 @@ public class PrintAsterisk {
         return asterisks;
     }
 
-    public String getAsteriskLines(int i) {
-        String lines = "";
-        for (int j = 0; j < i; j++) {
-            lines += getAsterisks(1) + "\n";
-        }
-        return lines;
-    }
-
-    public List<String> getAsteriskLines2(int i) {
+    public List<String> getAsteriskLines(int i) {
         List<String> lines =new ArrayList<String>();
         for (int j = 0; j < i; j++) {
             lines.add(getAsterisks(1));
@@ -31,12 +23,12 @@ public class PrintAsterisk {
         return lines;
     }
 
-    public String getRightTriangle(int i) {
-        String rightTriangle = "";
+    public List<String> getRightTriangle(int i) {
+        List<String> lines =new ArrayList<String>();
         for (int j = 0; j < i; j++) {
-            rightTriangle += getAsterisks(j+1) +"\n";
+            lines.add(getAsterisks(j+1));
         }
-        return rightTriangle;
+        return lines;
     }
 
     public String getSpace(int i) {
@@ -47,24 +39,33 @@ public class PrintAsterisk {
 
         return space;
     }
-    public String getIsoscelesTriangle(int i) {
-        String isoscelesTriangle = "";
+
+
+    public List<String> getIsoscelesTriangle(int i) {
+        List<String> lines =new ArrayList<String>();
         for (int j = 0; j < i; j++) {
-            isoscelesTriangle += getSpace(i-j-1) + getAsterisks(2*j+1) +"\n";
+            lines.add(getSpace(i-j-1)+getAsterisks(2*j+1));
         }
+        return lines;
+    }
+
+
+    public List<String> getDiamond(int i) {
+        List<String> isoscelesTriangle = getIsoscelesTriangle(3);
+        List<String> turnIsoscelesTriangle = getTurnIsoscelesTriangle(2);
+
+        for (int j = 0; j < turnIsoscelesTriangle.size(); j++) {
+            String item = turnIsoscelesTriangle.get(j);
+            turnIsoscelesTriangle.set(j," " + item);
+        }
+        isoscelesTriangle.addAll(turnIsoscelesTriangle);
         return isoscelesTriangle;
     }
 
-    public String getDiamond(int i) {
-        String diamond = "";
-        diamond += getIsoscelesTriangle(i) + getTurnIsoscelesTriangle(i-1);
-        return diamond;
-    }
-
-    private String getTurnIsoscelesTriangle(int i) {
-        String turnIsoscelesTriangle = "";
-        for (int j = i-1; j >= 0; j--) {
-            turnIsoscelesTriangle += getSpace(i-j-1) + getAsterisks(2*j+1) +"\n";
+    private List<String> getTurnIsoscelesTriangle(int i) {
+        List<String> turnIsoscelesTriangle =new ArrayList<String>();
+        for (int j = i-1; j >=0 ; j--) {
+            turnIsoscelesTriangle.add(getSpace(i-j-1)+getAsterisks(2*j+1));
         }
         return turnIsoscelesTriangle;
     }
@@ -72,4 +73,6 @@ public class PrintAsterisk {
     public String getDiamondWithName(int i, String bill) {
         return null;
     }
+
+
 }

@@ -21,34 +21,46 @@ public class printAsteriskTest {
     public void Should_return_three_lines_asterisk(){
         PrintAsterisk printAsterisk = new PrintAsterisk();
 
-        assertThat(printAsterisk.getAsteriskLines(3),is("*\n*\n*\n"));
-
-        List<String> asteriskLines = printAsterisk.getAsteriskLines2(3);
+        List<String> asteriskLines = printAsterisk.getAsteriskLines(3);
         assertThat(asteriskLines.size(),is(3));
         assertThat(asteriskLines.get(0),is("*"));
-        assertThat(asteriskLines.get(0),is("*"));
-        assertThat(asteriskLines.get(0),is("*"));
+        assertThat(asteriskLines.get(1),is("*"));
+        assertThat(asteriskLines.get(2),is("*"));
     }
 
     @Test
     public void Should_return_right_triangle(){
         PrintAsterisk printAsterisk = new PrintAsterisk();
 
-        assertThat(printAsterisk.getRightTriangle(3),is("*\n**\n***\n"));
+        List<String> asteriskLines = printAsterisk.getRightTriangle(3);
+        assertThat(asteriskLines.size(),is(3));
+        assertThat(asteriskLines.get(0),is("*"));
+        assertThat(asteriskLines.get(1),is("**"));
+        assertThat(asteriskLines.get(2),is("***"));
     }
 
     @Test
     public void Should_return_isosceles_triangle(){
         PrintAsterisk printAsterisk = new PrintAsterisk();
 
-        assertThat(printAsterisk.getIsoscelesTriangle(3),is("  *\n ***\n*****\n"));
+        List<String> asteriskLines = printAsterisk.getIsoscelesTriangle(3);
+        assertThat(asteriskLines.size(),is(3));
+        assertThat(asteriskLines.get(0),is("  *"));
+        assertThat(asteriskLines.get(1),is(" ***"));
+        assertThat(asteriskLines.get(2),is("*****"));
     }
 
     @Test
     public void Should_return_diamond(){
         PrintAsterisk printAsterisk = new PrintAsterisk();
 
-        assertThat(printAsterisk.getDiamond(3),is("  *\n ***\n*****\n ***\n  *\n"));
+        List<String> asteriskLines = printAsterisk.getDiamond(3);
+        assertThat(asteriskLines.size(),is(3));
+        assertThat(asteriskLines.get(0),is("  *"));
+        assertThat(asteriskLines.get(1),is(" ***"));
+        assertThat(asteriskLines.get(2),is("*****"));
+        assertThat(asteriskLines.get(3),is(" ***"));
+        assertThat(asteriskLines.get(4),is("  *"));
     }
 
     @Test
